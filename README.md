@@ -23,7 +23,7 @@ docker run --name solr_demo -d -p 8983:8983 solr:8 iot
 # create collections
 
 docker exec 03ecc2709715 solr create -c weather
-
+docker exec 03ecc2709715 solr create -c incidents
 
 # List
 
