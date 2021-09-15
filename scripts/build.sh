@@ -13,3 +13,16 @@ curl 'http://localhost:8080/admin/v3/source/public/default'
 bin/pulsar-admin sinks status --tenant public --namespace default --name solr-sink-iot
 
 echo "Topic: nvidia-sensor"
+
+
+
+bin/pulsar-admin sink stop --name solr-sink-weather --namespace default --tenant public
+
+bin/pulsar-admin sinks delete --tenant public --namespace default --name solr-sink-weather
+
+bin/pulsar-admin sinks create --tenant public --namespace default --name solr-sink-weather --sink-type solr --sink-config-file conf/solr-sink-weather.yml --inputs weather
+    
+bin/pulsar-admin sinks get --tenant public --namespace default --name solr-sink-weather
+
+bin/pulsar-admin sinks status --tenant public --namespace default --name solr-sink-weather
+
