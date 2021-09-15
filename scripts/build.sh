@@ -1,3 +1,8 @@
+bin/pulsar-admin sources delete \
+    --tenant public \
+    --namespace default \
+    --name solr-sink-iot
+
 bin/pulsar-admin sinks create \
     --tenant public \
     --namespace default \
@@ -14,6 +19,8 @@ bin/pulsar-admin sinks get \
 bin/pulsar-admin sinks list \
 --tenant public \
 --namespace default
+
+curl 'http://localhost:8080/admin/v3/source/public/default'
 
 bin/pulsar-admin sinks status \
 --tenant public \
