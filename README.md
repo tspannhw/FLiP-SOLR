@@ -15,6 +15,11 @@ Apache SOLR + Apache Pulsar
 * https://hub.docker.com/_/solr
 * https://hub.docker.com/r/streamnative/pulsar-all
 
+# Run Docker
+
+docker run --name solr_demo -d -p 8983:8983 solr:8 iot
+
+
 # List
 
 * https://pulsar.apache.org/docs/en/io-solr-sink/#configuration
@@ -23,4 +28,6 @@ Apache SOLR + Apache Pulsar
 * https://pulsar.apache.org/docs/en/io-use/#configure-a-connector-with-yaml-file
 * https://pulsar.apache.org/docs/en/io-cli/#delete
 * https://github.com/streamthoughts/apache-pulsar-cheat-sheet
+* https://dev.to/tspannhw/building-search-indexes-with-apache-nifi-streams-2ea7
+* https://github.com/docker-solr/docker-solr
 
