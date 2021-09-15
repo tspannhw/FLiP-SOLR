@@ -8,6 +8,7 @@ Apache SOLR + Apache Pulsar
 # Local Web UI
 
 * http://localhost:8983/solr/#/
+* http://localhost:8983/solr/admin/cores?action=STATUS&core=iot
 
 
 # Setup Apache SOLR
