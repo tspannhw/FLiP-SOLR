@@ -4,6 +4,7 @@ Apache SOLR + Apache Pulsar
 # REST Endpoints
 
 * http://localhost:8080/admin/v2/worker/cluster
+* http://localhost:8983/solr/incidents/select?q.op=OR&q=*%3A*
 
 # Local Web UI
 
