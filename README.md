@@ -36,4 +36,13 @@ docker exec 03ecc2709715 solr create -c incidents
 * https://github.com/streamthoughts/apache-pulsar-cheat-sheet
 * https://dev.to/tspannhw/building-search-indexes-with-apache-nifi-streams-2ea7
 * https://github.com/docker-solr/docker-solr
+
+
+
+# Errors / Logs / Debugging
+
+* logs/functions/public/default/solr-sink-iot/solr-sink-iot-0.log
 * https://pulsar.apache.org/docs/en/io-debug/
+
+
+
