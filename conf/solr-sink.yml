@@ -1,4 +1,4 @@
 configs:
-  solrUrl: "localhost:8983/solr"
+  solrUrl: "http://localhost:8983/solr/iot"
   solrMode: "Standalone"
   solrCollection: "iot"
