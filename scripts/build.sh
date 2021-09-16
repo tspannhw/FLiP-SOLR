@@ -14,7 +14,7 @@ bin/pulsar-admin sinks status --tenant public --namespace default --name solr-si
 
 echo "Topic: nvidia-sensor"
 
-
+# https://pulsar.apache.org/docs/en/client-libraries-websocket/
 
 bin/pulsar-admin sink stop --name solr-sink-weather --namespace default --tenant public
 
